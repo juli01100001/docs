@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+
+    background-color: #f9f9f7;
+    color: #212121;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 2rem 0 0.5rem 0;
+}
+h3 {
+    font-size: 24px;
+     margin: 0 0 0.5rem 0;
+}
+header li {
+    text-align: right;
+}
+p,
+li,
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #212121;
+}
+a:hover {
+    transition: 0.5s;
+    color: rgb(76, 117, 119);
+}
+ul {
+    list-style: armenian;
+    list-style-position: inside;
+
+}
+li {
+    margin-bottom: 0.5rem;
+}
+main {
+    margin: auto;
+    padding: 2rem 0;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-between;
+
+}
+
+.indent {
+  
+    margin: 20px 0;
+}
+.indent-2 {
+   
+}
+.image {
+    height: 500px;
+    background-image: url(../images/lecture.jpg);
+    
+}
