@@ -1,31 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/media-query.css">
+    <title>Basics</title>
 </head>
+
 <body>
-     <header>
+    <main>
+        <header>
+            <div>
+                <nav>
+                    <ul>
+
+                        <li> <a href="../../index.html">Homepage </a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
         <div>
+            <h1>First contact with a proxy</h1>
+            <p>If you’ve got a basic idea of security/programming logic and want to start making money in a simple way,
+                Burp Suite is one of the key tools to learn for working with web apps.
+            <p>
+
+            <p>The key to actually keep going and making progress (specially in bbp) is: don't overcomplicate things. No
+                need to take a f 10-hour course if a 5-minute article will do. I mean it. You don't need to go through
+                thousands of resources to learn about one thing, people have already done that so you don't have to.</p>
+        </div>
+        <!-- 
+        <div class="imagem-container">
+            <img src="../../images/burp.png" alt="">
+        </div> -->
+
+        <section>
+            <article>
+                <h2>1. Download it</h2>
+                <p>
+                    ps. if you use kali linux you can skip this first step.
+                </p>
+                <p>
+                    Go to <a href="https://portswigger.net/burp/releases#community">PortSwigger releases</a>, select
+                    your os/architecture and download it.
+                </p>
+
+                <h2>2. Installation (linux)</h2>
+                <p>
+                    Run ls in your terminal to take a look what is called your burp shell. Notice it's "raw", it doesn't
+                    look run-able.
+                </p>
+                <img src="../../images/ls.png" alt="">
+                <p>
+                    Now give it permission to execute.
+                </p>
+                <img src="../../images/permission.png" alt="">
+                <p>
+                    See how it's more alive now. You can tell it is a program not just any file.
+                </p>
+                <img src="../../images/difference.png" alt="">
+                <p>
+                    Give it a run and it'll start unpacking.
+                </p>
+                <img src="../../images/execute.png" alt="">
+                <p>
+                    This wizard will appear, just click next > next > next until it is done.
+                </p>
+                <img src="../../images/next.png" alt="">
+
+
+
+                <h2>3. Certificate</h2>
+
+                <h3>3.1 FoxyProxy configuration</h3>
+                <p>Open your browser and search for the foxyproxy extension</p>
+
+                <img src="../../images/searchfoxy.png" alt="">
+
+                <p>Add it to your browser</p>
+
+                <img src="../../images/getfoxy.png" alt="">
+
+                <p>Pin the extension</p>
+
+                <img src="../../images/pinfoxy.png" alt="">
+
+                <p>Let's create a proxy configuration. Hit "Options" at the bottom left.</p>
+
+                <img src="../../images/configfoxy.png" alt="">
+
+                <p>This will lead you to the following page.</p>
+                <img src="../../images/dashfoxy.png" alt="">
+
+                <p>
+                    Then go to "Proxies" at the top tab
+                </p>
+                <img src="../../images/proxiesfoxy.png" alt="">
+
+                <p>
+                    Click "Add". Follow the below instructions to set it up correctly.
+                </p>
+                <br>
+                <ul>
+                    <li>Title: burp</li>
+                    <li>Hostname: 127.0.0.1</li>
+                    <li>Port: 8080</li>
+                </ul>
+                <p>Then click "Save"</p>
+
+                <img src="../../images/saveproxyconfig.png" alt="">
+
+                <p>Click again in the extension and you can see it's already there. Hit "burp" to turn it on.</p>
+
+                <img src="../../images/foxyon.png" alt="">
+
+                <h3>3.2 Intercept on</h3>
+                <p>
+                    Open Burp.
+                </p>
+
+                <img src="../../images/open.png" alt="">
+
+                <p>click next > next up to the dashboard.</p>
+
+                <img src="../../images/dash.png" alt="">
+
+                <p>Now look for "Proxy" at the top</p>
+
+                <img src="../../images/proxy.png" alt="">
+
+                <p>Turn intercept on</p>
+
+                <img src="../../images/intercept.png" alt="">
+
+
+                <p>Now go to this url so you can download your certificate: <a
+                        href="http://burpsuite/">http://burpsuite/</a></p>
+
+                <p>If you did everything right you'll be able to see this page, then click "CA Certificate" to start the
+                    download.</p>
+                <img src="../../images/burpcert.png" alt="">
+
+
+                <h3>3.3 Import certificate</h3>
+
+                <p>Go to your browser settings and search for "certificate".</p>
+                <img src="../../images/settings.png" alt="">
+
+                <p>Security > Manage certificates</p>
+
+                <img src="../../images/managecert.png" alt="">
+
+                <p>Local certificates > Installed by you</p>
+                <img src="../../images/localcert.png" alt="">
+
+                <p>Trusted Certificates > Import.</p>
+                <img src="../../images/trustedcert.png" alt="">
+
+                <p>Select the file from burp suite you downloaded earlier </p>
+                <img src="../../images/cacert.png" alt="">
+
+                <p>This is it! </p>
+                <img src="../../images/installed.png" alt="">
+
+            </article>
+
+            <div>
+                <p></p>
+            </div>
+        </section>
+
+
+        <footer>
             <nav>
                 <ul>
-                    <a href="/">
-                        <li>Homepage</li>
-                    </a>
+                    <li>some note</li>
                 </ul>
             </nav>
-        </div>
-    </header>
-
-
-
-    <footer>
-        <nav>
-            <ul>
-                <li>some note</li>
-            </ul>
-        </nav>
-    </footer>
+        </footer>
+    </main>
 </body>
+
 </html>
