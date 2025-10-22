@@ -17,8 +17,8 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
-    margin: 2rem 0 0.5rem 0;
+    font-size: 40px;
+    margin:0.5rem 0;
 }
 h3 {
     font-size: 24px;
@@ -44,7 +44,7 @@ ul {
 .middle-list {
     list-style: armenian;
     list-style-position: inside;
-
+    padding: 1rem 0;
 }
 li {
     margin-bottom: 0.5rem;
@@ -68,7 +68,7 @@ main {
     margin: 20px 0;
 }
 .image {
-    height: 500px;
+    height: 360px;
     background-image: url(../images/lotus.jpg);   
 }
 .image img {
