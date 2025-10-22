@@ -69,10 +69,11 @@ main {
 }
 .image {
     height: 500px;
-    background-image: url(../images/lotus.jpg);
-    
+    background-image: url(../images/lotus.jpg);   
 }
-
+.image img {
+    width: 200px;
+}
 .imagem-container {
     width: 100%;
     height: 300px;
