@@ -34,6 +34,9 @@ a {
     text-decoration: none;
     color: #212121;
 }
+hr {
+    margin: 2rem 0;
+}
 a:hover {
     transition: 0.5s;
     color: rgb(76, 117, 119);
