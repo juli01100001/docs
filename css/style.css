@@ -65,7 +65,12 @@ main {
     justify-content: space-between;
 
 }
-
+main img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+}
 .indent {
   
     margin: 20px 0;
