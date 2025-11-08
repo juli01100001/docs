@@ -48,11 +48,11 @@ a {
   transform: rotate(20deg);
 }
 
-body {
+/* body {
 
     background-color: #f9f9f7;
     color: #212121;
-}
+} */
 
 h1 {
     font-size: 60px;
@@ -70,13 +70,13 @@ h3 {
 header li {
     text-align: right;
 }
-p,
+/* p,
 li,
 a {
     font-size: 20px;
     text-decoration: none;
     color: #212121;
-}
+} */
 hr {
     margin: 2rem 0;
 }
