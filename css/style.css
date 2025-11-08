@@ -36,9 +36,7 @@ a {
   transition: background 0.2s;
 }
 
-#theme-toggle:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
+
 
 #theme-toggle img {
   width: 24px;
