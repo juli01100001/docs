@@ -76,13 +76,12 @@ header div {
 header li {
     text-align: right;
 }
-/* p,
+p,
 li,
 a {
     font-size: 20px;
     text-decoration: none;
-    color: #212121;
-} */
+}
 hr {
     margin: 2rem 0;
 }
@@ -104,6 +103,7 @@ li {
 p {
     margin: 5px 0;
 }
+
 main {
     margin: auto;
     padding: 2rem 0;
