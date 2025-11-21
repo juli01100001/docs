@@ -1,4 +1,4 @@
-const PATH = "/images/";
+const PATH = "/docs/images/";
 const toggle = document.getElementById('theme-toggle');
 const icon = document.getElementById('theme-icon');
 const savedTheme = localStorage.getItem('theme');
