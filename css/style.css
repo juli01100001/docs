@@ -134,7 +134,7 @@ main img {
 } */
 .imagem-container {
     width: 100%;
-    height: 300px;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
