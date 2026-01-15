@@ -1,1 +1,4 @@
 ideas 
+
+write about documenting findings 
+// // findng flows to follow and create a business view
