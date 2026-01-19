@@ -5,4 +5,4 @@ write about documenting findings
 
 write:
     attention vs intention
-    compentence
+    stop caring about validation and build foundation
